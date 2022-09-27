@@ -1,0 +1,18 @@
+.content{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+header li{
+    display:inline-block;
+
+}
+
+header{
+    background-color: blue;
+    text-align: right;
+}
+
+nav li{
+    list-style-type: none;
+}
