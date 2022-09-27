@@ -17,13 +17,13 @@
             <li>schedule</li>
             <li>course link</li>
             <li>documents</li>
-            <li>conte</li>
+            <li>content</li>
           </ul>
         </header>
 
         <main>
           <h1> CS401 - Introduction to Web development [Fall 2022] </h1>
-          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmuwWzxxt1HuARBZdgtaFe6Z5ZOmAeD97_WA&usqp=CAU" alt="cool pipes picture">
+          <img id="pipesPicture"src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmuwWzxxt1HuARBZdgtaFe6Z5ZOmAeD97_WA&usqp=CAU" alt="cool pipes picture">
           
           <section>
             <h2 id="Welcome">Welcome!</h2>
@@ -178,11 +178,11 @@
         </footer>
       </div>
         <nav>
-          <img src="./logos/mainLogo.png" alt="cool logo">
+          <img id="logo" src="./logos/mainLogo.png" alt="cool logo">
           <h2>
             Contents
           </h2>
-          <ul>
+          <ul class="leftList">
             <li><a href="#Welcome"> Welcome!</a></li>
             <li><a href="#Catalog"> Description</a></li>
             <li>Grading Policy
@@ -204,6 +204,9 @@
             </li>
       
           </ul>
+          
+          <label for="funMode">Fun Mode</label>
+          <input  name="funMode" id="funMode" type="checkbox">
         </nav>
     </div>
 
