@@ -64,3 +64,7 @@ nav li{
 .funModeBox:hover { 
     background-color: chartreuse;
 }
+
+#mainLogo > img:hover {
+    border: 5px solid chartreuse;
+}
